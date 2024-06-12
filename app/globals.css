@@ -18,13 +18,34 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+ background: #D7D7D7;
 }
+
+#header {
+  height: 100vh;
+  background: linear-gradient(110deg, #D7D7D7 45%, #99d7cea5 45.2%);
+ 
+    background-size: 200% auto;
+    animation: gradientAnimation 10s ease infinite;
+  
+}
+
+
+/* Animation */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
 
 @layer utilities {
   .text-balance {
