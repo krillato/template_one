@@ -516,7 +516,7 @@ export default function Home() {
       {/* Footer */}
       <button
         onClick={handleScrollToTop}
-        className="bg-[#1A1A1A] h-auto   hover:bg-[#D397F8] hover:-translate-y-5 w-full duration-700  cursor-pointer shadow-2xl rounded-tl-3xl rounded-tr-3xl lg:rounded-tl-full lg:rounded-tr-full  flex flex-col justify-center items-center p-5 relative"
+        className="bg-[#1A1A1A] h-auto   hover:bg-[#D397F8]  w-full duration-700  cursor-pointer shadow-2xl rounded-tl-3xl rounded-tr-3xl lg:rounded-tl-full lg:rounded-tr-full  flex flex-col justify-center items-center p-5 relative"
       >
         <span className="text-[18px] font-semibold">BACK TO TOP</span>
         <div className="flex justify-center gap-[50px] mt-[50px]">
